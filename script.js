@@ -8,7 +8,7 @@ const wordList = [
   "telefoon",
   "moeder",
   "snoer",
-  "geeuw"
+  "geeuw",
 ];
 let maxAmount = 5;
 
