@@ -1,0 +1,23 @@
+{
+  "name": "Galgje",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanderMeerM/Galgje.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VanderMeerM/Galgje/issues"
+  },
+  "homepage": "https://github.com/VanderMeerM/Galgje#readme",
+  "devDependencies": {
+    "jest": "^25.3.0"
+  }
+}
