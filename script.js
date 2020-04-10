@@ -8,7 +8,7 @@ const wordList = [
   "telefoon",
   "moeder",
   "snoer",
-  "geeuw"
+  "geeuw",
 ];
 let maxAmount = 5;
 
@@ -18,8 +18,10 @@ const wordpicker = function(list) {
   let index = Math.floor(Math.random() * list.length);
   const x = list;
   console.log("wat ben ik?", word);
+  console.log(x[index]);
   return x[index];
-};
+  };
+
 
 let inputs;
 const wordGuessed = function(word, inputs) {
@@ -66,6 +68,7 @@ const letters = function(word, inputs) {
   document.querySelector(".guessed_letters").innerHTML = wrongLetters.join(" ");
 };
 
+
 const theWord = function(word, inputLetterWords) {
   let display = word.map(function(letter) {
     if (inputLetterWords.includes(letter)) {
@@ -92,6 +95,8 @@ const guessLetter = function() {
     tries++;
     document.querySelector(".lives span").innerHTML = 5 - tries;
   }
+  console.log (input1);
+  console.log(inputs);
 
   inputs.push(input1);
   theWord(word, inputs);
@@ -136,3 +141,13 @@ document.addEventListener("DOMContentLoaded", function() {
     .addEventListener("click", beginTheGameWithPlayer);
   beginTheGameWithPlayer();
 });
+
+/*
+function som(a, b) {
+  return a + b;
+}
+*/
+
+module.exports = { guessLetter, wordpicker, wordList };
+
+
