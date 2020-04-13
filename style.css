@@ -79,9 +79,9 @@ height: auto;
   animation-name: fadeIn;
 }
 
-.guessed_letters {
+.wrong_letters {
   font-size: 30px;
-  color: dodgerblue; 
+  color: red; 
   
 }
 .lose {
