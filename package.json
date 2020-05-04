@@ -2,11 +2,6 @@
   "name": "Galgje",
   "version": "1.0.0",
   "description": "",
-<<<<<<< HEAD
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-=======
   "main": "script.js",
   "scripts": {
     "test": "jest --watchAll"
@@ -14,18 +9,14 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VanderMeerM/Galgje.git"
->>>>>>> 2418911a17a9ae736d0eaa3bd73171055aa838c8
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-<<<<<<< HEAD
-=======
   "bugs": {
     "url": "https://github.com/VanderMeerM/Galgje/issues"
   },
   "homepage": "https://github.com/VanderMeerM/Galgje#readme",
->>>>>>> 2418911a17a9ae736d0eaa3bd73171055aa838c8
   "devDependencies": {
     "jest": "^25.3.0"
   }
